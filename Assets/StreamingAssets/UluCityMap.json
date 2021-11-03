@@ -1,0 +1,594 @@
+{
+  "Tiles": [
+    {
+      "X": 16,
+      "Y": 2,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 17,
+      "Y": 2,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 2,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 16,
+      "Y": 3,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 17,
+      "Y": 3,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 18,
+      "Y": 3,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 12,
+      "Y": 4,
+      "TileNum": "UluCity_Incline_Tile2-1"
+    },
+    {
+      "X": 13,
+      "Y": 4,
+      "TileNum": "UluCity_Incline_Tile2-2"
+    },
+    {
+      "X": 12,
+      "Y": 5,
+      "TileNum": "UluCity_Incline_Tile2-3"
+    },
+    {
+      "X": 13,
+      "Y": 5,
+      "TileNum": "UluCity_Incline_Tile2-4"
+    },
+    {
+      "X": 14,
+      "Y": 5,
+      "TileNum": "UluCity_Incline_Tile2-5"
+    },
+    {
+      "X": 6,
+      "Y": 7,
+      "TileNum": "UluCity_Incline_Tile1-1"
+    },
+    {
+      "X": 7,
+      "Y": 7,
+      "TileNum": "UluCity_Incline_Tile1-2"
+    },
+    {
+      "X": 11,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 12,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 13,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 14,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 15,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 16,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 17,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 19,
+      "Y": 7,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 5,
+      "Y": 8,
+      "TileNum": "UluCity_Incline_Tile1-3"
+    },
+    {
+      "X": 6,
+      "Y": 8,
+      "TileNum": "UluCity_Incline_Tile1-4"
+    },
+    {
+      "X": 7,
+      "Y": 8,
+      "TileNum": "UluCity_Incline_Tile1-5"
+    },
+    {
+      "X": 11,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 12,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 13,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 14,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 15,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 16,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 17,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 18,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 19,
+      "Y": 8,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 3,
+      "Y": 10,
+      "TileNum": "UluCity_Incline_Tile2-1"
+    },
+    {
+      "X": 4,
+      "Y": 10,
+      "TileNum": "UluCity_Incline_Tile2-2"
+    },
+    {
+      "X": 3,
+      "Y": 11,
+      "TileNum": "UluCity_Incline_Tile2-3"
+    },
+    {
+      "X": 4,
+      "Y": 11,
+      "TileNum": "UluCity_Incline_Tile2-4"
+    },
+    {
+      "X": 5,
+      "Y": 11,
+      "TileNum": "UluCity_Incline_Tile2-5"
+    },
+    {
+      "X": 7,
+      "Y": 12,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 8,
+      "Y": 12,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 10,
+      "Y": 12,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 11,
+      "Y": 12,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 13,
+      "Y": 12,
+      "TileNum": "UluCity_Incline_Tile2-1"
+    },
+    {
+      "X": 14,
+      "Y": 12,
+      "TileNum": "UluCity_Incline_Tile2-2"
+    },
+    {
+      "X": 7,
+      "Y": 13,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 8,
+      "Y": 13,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 10,
+      "Y": 13,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 11,
+      "Y": 13,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 13,
+      "Y": 13,
+      "TileNum": "UluCity_Incline_Tile2-3"
+    },
+    {
+      "X": 14,
+      "Y": 13,
+      "TileNum": "UluCity_Incline_Tile2-4"
+    },
+    {
+      "X": 15,
+      "Y": 13,
+      "TileNum": "UluCity_Incline_Tile2-5"
+    },
+    {
+      "X": 16,
+      "Y": 15,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 17,
+      "Y": 15,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 15,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 16,
+      "Y": 16,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 17,
+      "Y": 16,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 18,
+      "Y": 16,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 12,
+      "Y": 18,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 13,
+      "Y": 18,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 14,
+      "Y": 18,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 12,
+      "Y": 19,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 13,
+      "Y": 19,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 14,
+      "Y": 19,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 0,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 1,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 2,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 3,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 4,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 5,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 6,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 7,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 8,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 9,
+      "Y": 21,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 0,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 1,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 2,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 3,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 4,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 5,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 6,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 7,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 8,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-5"
+    },
+    {
+      "X": 9,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 10,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 11,
+      "Y": 22,
+      "TileNum": "UluCity_Tile1-3"
+    },
+    {
+      "X": 10,
+      "Y": 23,
+      "TileNum": "UluCity_Tile1-4"
+    },
+    {
+      "X": 11,
+      "Y": 23,
+      "TileNum": "UluCity_Tile1-6"
+    },
+    {
+      "X": 12,
+      "Y": 24,
+      "TileNum": "UluCity_Incline_Tile2-1"
+    },
+    {
+      "X": 13,
+      "Y": 24,
+      "TileNum": "UluCity_Incline_Tile2-2"
+    },
+    {
+      "X": 12,
+      "Y": 25,
+      "TileNum": "UluCity_Incline_Tile2-3"
+    },
+    {
+      "X": 13,
+      "Y": 25,
+      "TileNum": "UluCity_Incline_Tile2-4"
+    },
+    {
+      "X": 14,
+      "Y": 25,
+      "TileNum": "UluCity_Incline_Tile2-5"
+    },
+    {
+      "X": 16,
+      "Y": 26,
+      "TileNum": "UluCity_Incline_Tile1-1"
+    },
+    {
+      "X": 17,
+      "Y": 26,
+      "TileNum": "UluCity_Incline_Tile1-2"
+    },
+    {
+      "X": 15,
+      "Y": 27,
+      "TileNum": "UluCity_Incline_Tile1-3"
+    },
+    {
+      "X": 16,
+      "Y": 27,
+      "TileNum": "UluCity_Incline_Tile1-4"
+    },
+    {
+      "X": 17,
+      "Y": 27,
+      "TileNum": "UluCity_Incline_Tile1-5"
+    },
+    {
+      "X": 0,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-1"
+    },
+    {
+      "X": 1,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 2,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 3,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 4,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 5,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 6,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 7,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 8,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 9,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 10,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 11,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 12,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 13,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 14,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 15,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 16,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 17,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-2"
+    },
+    {
+      "X": 19,
+      "Y": 29,
+      "TileNum": "UluCity_Tile1-3"
+    }
+  ]
+}

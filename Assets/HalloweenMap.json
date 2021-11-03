@@ -1,0 +1,334 @@
+{
+  "Tiles": [
+    {
+      "X": 13,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 14,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 15,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 13,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 14,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 15,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 1,
+      "Y": 5,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 2,
+      "Y": 5,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 3,
+      "Y": 5,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 1,
+      "Y": 6,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 2,
+      "Y": 6,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 3,
+      "Y": 6,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 6,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 7,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 8,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 6,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 7,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 8,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 15,
+      "Y": 10,
+      "TileNum": "Halloween_Incline_Tile1_1"
+    },
+    {
+      "X": 16,
+      "Y": 10,
+      "TileNum": "Halloween_Incline_Tile1_2"
+    },
+    {
+      "X": 14,
+      "Y": 11,
+      "TileNum": "Halloween_Incline_Tile1_3"
+    },
+    {
+      "X": 15,
+      "Y": 11,
+      "TileNum": "Halloween_Incline_Tile1_4"
+    },
+    {
+      "X": 16,
+      "Y": 11,
+      "TileNum": "Halloween_Incline_Tile1_5"
+    },
+    {
+      "X": 3,
+      "Y": 15,
+      "TileNum": "Halloween_Incline_Tile2_1"
+    },
+    {
+      "X": 4,
+      "Y": 15,
+      "TileNum": "Halloween_Incline_Tile2_2"
+    },
+    {
+      "X": 3,
+      "Y": 16,
+      "TileNum": "Halloween_Incline_Tile2_3"
+    },
+    {
+      "X": 4,
+      "Y": 16,
+      "TileNum": "Halloween_Incline_Tile2_4"
+    },
+    {
+      "X": 5,
+      "Y": 16,
+      "TileNum": "Halloween_Incline_Tile2_5"
+    },
+    {
+      "X": 0,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 1,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 2,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 7,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 8,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 9,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 14,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 15,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 16,
+      "Y": 22,
+      "TileNum": "Halloween_Tile1_3"
+    },
+    {
+      "X": 0,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 1,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 2,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 7,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 8,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 9,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 14,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_4"
+    },
+    {
+      "X": 15,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_5"
+    },
+    {
+      "X": 16,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1_6"
+    },
+    {
+      "X": 0,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_1"
+    },
+    {
+      "X": 1,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 2,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 3,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 4,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 5,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 6,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 7,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 8,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 9,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 10,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 11,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 12,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 13,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 14,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 15,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 16,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 17,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 18,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_2"
+    },
+    {
+      "X": 19,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1_3"
+    }
+  ]
+}

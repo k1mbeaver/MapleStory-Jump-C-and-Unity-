@@ -1,0 +1,369 @@
+{
+  "Tiles": [
+    {
+      "X": 16,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 17,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 2,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 16,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 17,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1-5"
+    },
+    {
+      "X": 18,
+      "Y": 3,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 4,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 5,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 6,
+      "Y": 9,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 4,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 5,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1-5"
+    },
+    {
+      "X": 6,
+      "Y": 10,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 18,
+      "Y": 11,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 19,
+      "Y": 11,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 18,
+      "Y": 12,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 19,
+      "Y": 12,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 16,
+      "Y": 14,
+      "TileNum": "Halloween_Incline_Tile1-1"
+    },
+    {
+      "X": 17,
+      "Y": 14,
+      "TileNum": "Halloween_Incline_Tile1-2"
+    },
+    {
+      "X": 15,
+      "Y": 15,
+      "TileNum": "Halloween_Incline_Tile1-3"
+    },
+    {
+      "X": 16,
+      "Y": 15,
+      "TileNum": "Halloween_Incline_Tile1-4"
+    },
+    {
+      "X": 17,
+      "Y": 15,
+      "TileNum": "Halloween_Incline_Tile1-5"
+    },
+    {
+      "X": 10,
+      "Y": 17,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 11,
+      "Y": 17,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 12,
+      "Y": 17,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 6,
+      "Y": 18,
+      "TileNum": "Halloween_Incline_Tile1-1"
+    },
+    {
+      "X": 7,
+      "Y": 18,
+      "TileNum": "Halloween_Incline_Tile1-2"
+    },
+    {
+      "X": 10,
+      "Y": 18,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 11,
+      "Y": 18,
+      "TileNum": "Halloween_Tile1-5"
+    },
+    {
+      "X": 12,
+      "Y": 18,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 5,
+      "Y": 19,
+      "TileNum": "Halloween_Incline_Tile1-3"
+    },
+    {
+      "X": 6,
+      "Y": 19,
+      "TileNum": "Halloween_Incline_Tile1-4"
+    },
+    {
+      "X": 7,
+      "Y": 19,
+      "TileNum": "Halloween_Incline_Tile1-5"
+    },
+    {
+      "X": 2,
+      "Y": 21,
+      "TileNum": "Halloween_Incline_Tile2-1"
+    },
+    {
+      "X": 3,
+      "Y": 21,
+      "TileNum": "Halloween_Incline_Tile2-2"
+    },
+    {
+      "X": 2,
+      "Y": 22,
+      "TileNum": "Halloween_Incline_Tile2-3"
+    },
+    {
+      "X": 3,
+      "Y": 22,
+      "TileNum": "Halloween_Incline_Tile2-4"
+    },
+    {
+      "X": 4,
+      "Y": 22,
+      "TileNum": "Halloween_Incline_Tile2-5"
+    },
+    {
+      "X": 6,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 7,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 9,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 10,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 11,
+      "Y": 23,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 6,
+      "Y": 24,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 7,
+      "Y": 24,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 9,
+      "Y": 24,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 10,
+      "Y": 24,
+      "TileNum": "Halloween_Tile1-5"
+    },
+    {
+      "X": 11,
+      "Y": 24,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 14,
+      "Y": 26,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 15,
+      "Y": 26,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 16,
+      "Y": 26,
+      "TileNum": "Halloween_Tile1-3"
+    },
+    {
+      "X": 14,
+      "Y": 27,
+      "TileNum": "Halloween_Tile1-4"
+    },
+    {
+      "X": 15,
+      "Y": 27,
+      "TileNum": "Halloween_Tile1-5"
+    },
+    {
+      "X": 16,
+      "Y": 27,
+      "TileNum": "Halloween_Tile1-6"
+    },
+    {
+      "X": 0,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-1"
+    },
+    {
+      "X": 1,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 2,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 3,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 4,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 5,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 6,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 7,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 8,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 9,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 10,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 11,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 12,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 13,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 14,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 15,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 16,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 17,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 18,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-2"
+    },
+    {
+      "X": 19,
+      "Y": 29,
+      "TileNum": "Halloween_Tile1-3"
+    }
+  ]
+}
