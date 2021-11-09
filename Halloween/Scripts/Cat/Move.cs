@@ -5,16 +5,15 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     private Rigidbody2D player;
-    float walkForce = 30.0f;
-    float maxWalkSpeed = 2.0f;
+    float walkForce = 20.0f;
+    float maxWalkSpeed = 1.0f;
     int key = 0;
     public float jumpForce = 150.0f;
     private bool jumpCount = false;
-    bool ground = false;
     Animator animator;
-    Vector2 lookDirection = new Vector2(1, 0);
     private float vertical = 0;
     private float horizontal = 0;
+    bool ground = false;
 
     // Start is called before the first frame update
     void Start()
@@ -25,25 +24,30 @@ public class Move : MonoBehaviour
 
     void Update()
     {
-        
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
-        Vector2 move = new Vector2(horizontal, vertical);
-        if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
+        // 애니메이션 부분
+        if(Input.GetAxis("Horizontal") == 0)
         {
-            lookDirection.Set(move.x, move.y);
-            lookDirection.Normalize();
+            animator.SetBool("isMoving", false);
+        }
+        else if(Input.GetAxis("Horizontal") < 0)
+        {
+            animator.SetFloat("Move X", -1.0f); // 왼쪽
+            animator.SetBool("isMoving", true);
+        }
+        else if(Input.GetAxis("Horizontal") > 0)
+        {
+            animator.SetFloat("Move X", 1.0f); // 오른쪽
+            animator.SetBool("isMoving", true);
         }
 
-        animator.SetFloat("Move X", lookDirection.x);
-        animator.SetFloat("Move Y", lookDirection.y);
-        animator.SetFloat("Speed", move.magnitude);
-        
+        // 점프
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            jumpCount = true;
-            //animator.SetBool("isJumping", true);
-            //animator.SetTrigger("doJumping");
+            if(ground == true)
+            {
+                jumpCount = true;
+            }
         }
         key = 0;
         if (Input.GetKey(KeyCode.RightArrow)) key = 1;
@@ -56,7 +60,7 @@ public class Move : MonoBehaviour
         {
             player.AddForce(transform.up * jumpForce);
             jumpCount = false;
-            //animator.SetBool("isJumping", false);
+            ground = false;
         }
 
         float speedx = Mathf.Abs(player.velocity.x);
@@ -64,6 +68,15 @@ public class Move : MonoBehaviour
         if(speedx < maxWalkSpeed)
         {
             player.AddForce(transform.right * key * walkForce);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D tile)
+    {
+        if(tile.gameObject.layer == 6 && player.velocity.y < 0)
+        {
+            Debug.Log("붙었다.");
+            ground = true;
         }
     }
 }

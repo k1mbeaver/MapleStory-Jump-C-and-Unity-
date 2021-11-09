@@ -282,6 +282,14 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 2474773831980347026, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612769576358167891, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.38
+      objectReference: {fileID: 0}
     - target: {fileID: 7803792755013685897, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
       propertyPath: m_Name
       value: catstand1
@@ -345,6 +353,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5599168092544075149, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
     - {fileID: 2534644671671648149, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
+    - {fileID: 9099308608356908719, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 07fb94d8b0826474186e3cf4cef6b457, type: 3}
 --- !u!1 &1021290889
 GameObject:
@@ -356,7 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1021290891}
   - component: {fileID: 1021290890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
