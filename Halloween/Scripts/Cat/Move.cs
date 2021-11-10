@@ -8,11 +8,9 @@ public class Move : MonoBehaviour
     float walkForce = 20.0f;
     float maxWalkSpeed = 1.0f;
     int key = 0;
-    public float jumpForce = 150.0f;
+    public float jumpForce = 300.0f;
     private bool jumpCount = false;
     Animator animator;
-    private float vertical = 0;
-    private float horizontal = 0;
     bool ground = false;
 
     // Start is called before the first frame update
@@ -40,8 +38,49 @@ public class Move : MonoBehaviour
             animator.SetBool("isMoving", true);
         }
 
-        // 점프
+        // 경사면 안 미끄러지게
+        if(Input.GetAxis("Horizontal") == 0)
+        {
+            player.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+        }
+        else
+        {
+            player.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
 
+        // 캐릭터가 화면 밖을 안나가게
+        Vector3 pos = Camera.main.WorldToViewportPoint(this.transform.position);
+
+        if (pos.x < 0f)
+        {
+            pos.x = 0f;
+        }
+
+        if (pos.x > 1f)
+        {
+            pos.x = 1f;
+        }
+
+        if (pos.y < 0f)
+        {
+            pos.y = 0f;
+        }
+
+        if (pos.y > 1f)
+        {
+            pos.y = 1f;
+        }
+
+        this.transform.position = Camera.main.ViewportToWorldPoint(pos);
+
+        // 캐릭터가 화면 아래로 내려갔을 때 초기 위치로 재배치
+        if (this.transform.position.y < 0.0f)
+        {
+            Debug.Log("화면 밖으로 나갔다!");
+            this.transform.position = new Vector3(-6.0f, 0.665f, 5);
+        }
+
+        // 점프
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if(ground == true)
@@ -75,8 +114,12 @@ public class Move : MonoBehaviour
     {
         if(tile.gameObject.layer == 6 && player.velocity.y < 0)
         {
-            Debug.Log("붙었다.");
             ground = true;
         }
+    }
+
+    void OnTriggerExit2D()
+    {
+        ground = false;
     }
 }

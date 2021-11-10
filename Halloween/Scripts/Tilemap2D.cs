@@ -29,7 +29,7 @@ public class Tilemap2D : MonoBehaviour
                 {
                     if(Convert.ToInt32(Tile_array[index]["X"]) == x && Convert.ToInt32(Tile_array[index]["Y"]) == y)
                     {
-                        Vector3 position = new Vector3(-(width * 0.5f + 0.5f) + (x * 0.5f), (height * 0.5f - 0.5f) - (y * 0.5f));
+                        Vector3 position = new Vector3(-(width * 0.5f + 0.5f) + (x * 0.5f), (height * 0.5f - 0.5f) - (y * 0.5f), 4);
 
                         SpawnTile((TileName)Enum.Parse(typeof(TileName),Tile_array[index]["TileNum"].ToString()), position);
                     }
