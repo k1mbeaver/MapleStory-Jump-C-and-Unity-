@@ -12,6 +12,7 @@ public class Move : MonoBehaviour
     private bool jumpCount = false;
     Animator animator;
     bool ground = false;
+    bool hit = false;
 
     // Start is called before the first frame update
     void Start()
@@ -66,11 +67,6 @@ public class Move : MonoBehaviour
             pos.y = 0f;
         }
 
-        if (pos.y > 1f)
-        {
-            pos.y = 1f;
-        }
-
         this.transform.position = Camera.main.ViewportToWorldPoint(pos);
 
         // 캐릭터가 화면 아래로 내려갔을 때 초기 위치로 재배치
@@ -95,6 +91,7 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // 점프
         if(jumpCount)
         {
             player.AddForce(transform.up * jumpForce);
@@ -102,19 +99,36 @@ public class Move : MonoBehaviour
             ground = false;
         }
 
+        // 캐릭터 이동
         float speedx = Mathf.Abs(player.velocity.x);
 
         if(speedx < maxWalkSpeed)
         {
             player.AddForce(transform.right * key * walkForce);
         }
+
+        // 몬스터 한테 맞았을 때
+        if(hit)
+        {
+            player.AddForce(transform.up * 200);
+            player.AddForce(transform.right * -key * 200);
+            hit = false;
+        }
     }
 
-    void OnTriggerEnter2D(Collider2D tile)
+    void OnTriggerEnter2D(Collider2D obj)
     {
-        if(tile.gameObject.layer == 6 && player.velocity.y < 0)
+        if(obj.gameObject.layer == 6 && player.velocity.y < 0)
         {
             ground = true;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D obj)
+    {
+        if(obj.gameObject.layer == 3)
+        {
+            hit = true;
         }
     }
 
