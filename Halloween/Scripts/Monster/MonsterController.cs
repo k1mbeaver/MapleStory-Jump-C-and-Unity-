@@ -8,7 +8,11 @@ public class MonsterController : MonoBehaviour
     public bool vertical;
     public float changeTime;
 
-    Animator animator;
+    SpriteRenderer monsterRend;
+    public Sprite[] monsterAnimation; //  애니메이션
+    int frameCount = 0;
+    int spriteCount = 0;
+
     Rigidbody2D monster;
     float timer;
     int direction = 1;
@@ -16,9 +20,56 @@ public class MonsterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
         monster = GetComponent<Rigidbody2D>();
+        monsterRend = GetComponent<SpriteRenderer>();
         timer = changeTime;
+    }
+
+    void Update()
+    {
+        // 애니메이션
+        // 오른쪽 
+        if (direction == 1)
+        {
+            monsterRend.flipX = true;
+            monsterRend.sprite = monsterAnimation[spriteCount];
+            frameCount++;
+            if (frameCount % 60 == 0)
+            {
+                spriteCount++;
+            }
+
+            if (frameCount == 360)
+            {
+                frameCount = 0;
+            }
+
+            if (spriteCount == 6)
+            {
+                spriteCount = 0;
+            }
+        }
+        // 왼쪽
+        else if (direction == -1)
+        {
+            monsterRend.flipX = false;
+            monsterRend.sprite = monsterAnimation[spriteCount];
+            frameCount++;
+            if (frameCount % 60 == 0)
+            {
+                spriteCount++;
+            }
+
+            if (frameCount == 360)
+            {
+                frameCount = 0;
+            }
+
+            if (spriteCount == 6)
+            {
+                spriteCount = 0;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -30,7 +81,6 @@ public class MonsterController : MonoBehaviour
         {
             direction = -direction;
             timer = changeTime;
-            animator.SetInteger("Direction", direction);
         }
         Vector2 position = monster.position;
         if (vertical)

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class endPortal : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class endPortal : MonoBehaviour
             if (timerDisplay < 0)
             {
                 dialogBox.SetActive(false);
+                SceneManager.LoadScene("Start");
             }
         }
     }
